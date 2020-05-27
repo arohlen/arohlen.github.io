@@ -12,8 +12,9 @@ code {
     monospace;
 }
 
-.row {
+.homeRow {
   margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 /* add min height to card text to force the cards to be the same height */
@@ -21,9 +22,34 @@ code {
   min-height: 9vh;
 }
 
+/*
 .card-img-top {
   width: 100%;
   height: 12vw;
   object-fit: cover;
 }
 
+*/
+
+.card {
+  margin-bottom: 10%;
+}
+
+#profilepic {
+  border-radius: 50%;
+}
+
+
+
+#aboutText{
+  margin-top: 5rem;
+}
+
+.linkContainer {
+  margin-top: 20%;
+}
+
+#titleh1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
