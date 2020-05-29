@@ -7,6 +7,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
+import Mnist from './components/Mnist';
 
 class App extends Component{
 
@@ -30,6 +31,7 @@ class App extends Component{
 
             <Switch>
               <Route exact path="/" component={Home} />
+              <Route path="/portfolio/digits" component={Mnist} />
               <Route path="/portfolio" component={Portfolio} />
               <Route path="/about" component={About} />
             </Switch>
